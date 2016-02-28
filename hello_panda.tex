@@ -50,6 +50,191 @@
 Following the classification system employed by Peng et al. (2009), courting behaviour will be recorded if either panda (1) approaches a sexual partner forwardly, presenting estrous or rutting behaviors, such as shaking head, urinating/defecating, rubbing gentile, etc.; (2) bleats ''Mie, Mie'', stares at the partner, sniffs the partner's urine, feces, or the leftover scent mark; or (3) scratches the partner in order to attract his or her attention. Additionally, a successful copulation will be recorded if the male panda's penis penetrates the female panda's vagina and at a latter time a high chirp cry from the female is heard; a failed copulation will be recorded if the keeper has to separate the two pandas because they bit or attacked each other, seldom approached each other in the pen, or display waning courtship. 
 \end{abstract}
 
+\section{Panda Vocabulary}
+
+\subsection{Greetings}
+Hello panda
+
+%=================== Images ======================
+\subsection{Panda Images}
+
+Pandas are the cutest. EVER. Here's why (Figure ~\ref{fig:love_you_panda}):           %use ref and label for cross-references (figures, tables, sections, subsections)
+\begin{figure}[h]                                         %optional argument: place figure/table here (h), top (t), page of floats (p)
+\begin{center}
+\includegraphics[width=.8\textwidth]{love_you_panda.jpg}   %inserts {image} that is .8 of text width
+\caption{\label{fig:love_you_panda} World's cutest panda}   %caption and label name same
+											  %caption amy be placed above (put before \includegraphics) or below (put after \includegraphics)
+\end{center}
+\end{figure}
+
+
+%=================== Mathematics ======================
+\subsection{Panda Mathematics}
+
+Pandas love the feel of \LaTeX{} on math.
+
+Let $P_1, P_2, \ldots, P_n$ be a sequence of independent and identically distributed random pandas with $\text{E}[X_i] = \mu$ and $\text{Var}[P_i] = \sigma^2 < \infty$, and let
+$$S_n = \frac{P_1 + P_2 + \cdots + P_n}{n}
+            = \frac{1}{n}\sum_{i}^{n} P_i$$
+
+denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$
+
+\subsubsection{Panda Shirts}
+
+$$ \int \!e^x = f(u^n)$$					% '$$' centers math equation
+
+
+%=================== TABLE ======================
+\subsection{Adjectives}
+How do you know if a panda adjective is cute? The Cuteness Index of course! --- see Table \ref{tab:cuteness}.      %tilde '~' is optional
+\begin{table}[h]                                           %optional argument: place figure/table here (h), top (t), page of floats (p)
+\begin{center}
+\begin{tabular}{l | c | r}                                % \begin{tabular}{width}[pos]{cols}: specify #columns in table
+   								% each column entry: indicate by align left (l), align center (c), align right (r)
+								% vertical bar for cell separation (|)						
+Adjective & Happiness & Cuteness Index   \\                  % &: separates columns  
+\hline         						% \hline; Create Horizontal line after row
+Pouty & 90\% & .8   \\                                              % \\: separates rows
+Poopy & 99\% & .95 \\
+Grumpy &  20\% & \\                                  % blank cell: just don't type anything (as long as # &'s = # (c's/r's/l's  -1 )
+Fluffy & 88\% & 1                                                  % Don't need '\\' for last row
+\end{tabular}
+\end{center}
+\caption{\label{tab:cuteness} Table of Panda Adjectives and their respective ranking in Happiness and the Cuteness Index (0-1).}
+\end{table}
+
+%=================== More Complicated Table ======================
+
+\subsection{Complicated Adjectives}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{$p{0.9 in}^p{0.7in}^p{0.7in}^p{0.8in}^p{0.9in}^p{0.7in}^p{0.7in} }   %specify width p{width}     % $ and ^ allows us to do \rowstyle
+    \multicolumn{7}{c}{\textbf{Electives}} \\
+    \hline
+     \rowstyle{\bfseries} & Building & Room & Days & Time & Section & Term \\    %\rowstyle{} allows us to bold (\bfseries) or italicize entire row
+     \hline
+    MATH 300 & ANNEX & 1100 & TTh & 14:00-15:30 & 201 & 2 \\
+    MATH 300 & ANNEX & 1100 & MWF & 13:00-14:00 & 202 & 2 \\
+    \hline
+    MATH 302 & LSK & 201 & MWF & 11:00-12:00 & 201 & 2 \\
+    \hline
+    MATH 317 & LSK & 460 & MWF & 14:00-15:00 & 201 & 2 \\
+    MATH 317 & BUCH A & 202 & MWF & 12:00-13:00 & 202 & 2 \\
+    \hline
+    MATH 340 & MATH & 104 & TTh & 9:30-11:00 & 201 & 2 \\
+    MATH 340 & BUCH A & 103 & MWF & 12:00-13:00 & 202 & 2 \\
+    \hline
+    BIOL 317 & MacMillan & 160 & MWF & 9:00-10:00 & 101 & 1 \\
+    PHIL 321A & CHEM & D200 & MWF & 9:30-11:00 & 1 & 1 \\
+    BIOL 343 & BIOL & 2200 & MWF & 14:00-15:00 & 101 & 1 \\
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{$p{0.8 in} | ^p{0.7in}^p{0.7in}^p{0.8in}^p{0.9in}^c^c }   %specify width p{width}     % $ and ^ allows us to do \rowstyle
+    \multicolumn{7}{c}{\textbf{Electives}} \\
+    \multicolumn{7}{c}{} \\
+     \rowstyle{\bfseries} & Building & Room & Days & Time & Section & Term \\    %\rowstyle{} allows us to bold (\bfseries) or italicize entire row
+     \hline
+    MATH 300 & ANNEX & 1100 & TTh & 14:00-15:30 & 201 & 2 \\
+     & ANNEX & 1100 & MWF & 13:00-14:00 & 202 & 2 \\
+    \hline
+    MATH 302 & LSK & 201 & MWF & 11:00-12:00 & 201 & 2 \\
+    \hline
+    MATH 317 & LSK & 460 & MWF & 14:00-15:00 & 201 & 2 \\
+     & BUCH A & 202 & MWF & 12:00-13:00 & 202 & 2 \\
+    \hline
+    MATH 340 & MATH & 104 & TTh & 9:30-11:00 & 201 & 2 \\
+     & BUCH A & 103 & MWF & 12:00-13:00 & 202 & 2 \\
+    \hline
+    BIOL 317 & MacMillan & 160 & MWF & 9:00-10:00 & 101 & 1 \\
+    PHIL 321A & CHEM & D200 & MWF & 9:30-11:00 & 001 & 1 \\
+    BIOL 343 & BIOL & 2200 & MWF & 14:00-15:00 & 101 & 1 \\
+    \\
+    
+    %\hline
+    \multicolumn{7}{c}{\textbf{Critical Classes}} \\
+    \multicolumn{7}{c}{} \\
+    \rowstyle{\bfseries} & Building & Room & Days & Time & Section & Term  \\          
+    \hline         				
+    MATH 200 & LSK & 201 & MWF & 9:00 - 10:00 & 101 & 1 \\
+     & LSK & 201 & MWF & 11:00 - 12:00 & 102 & 1 \\
+     & ANNEX & 1100 & MWF & 11:00 - 12:00 & 103 & 1 \\
+     & BUCH A  & 104 & MWF & 13:00 - 14:00 & 104 & 1 \\
+     & BUCH A & 201 & TTh & 9:30 - 11:00 & 105 & 1 \\
+     & BUCH A & 104 & TTh  & 15:30 - 17:00 & 107 & 1 \\
+    \hline
+    MATH 221 & LSK & 201 & MWF & 10:00 - 11:00 & 102 & 1 \\
+     & MATH & 100 & MWF & 13:00 - 14:00 & 103 & 1 \\
+     & LSK & 201 & MWF & 13:00 - 14:00 & 104 & 1 \\
+    \hline
+    MATH 220 & ANNEX & 1100 & MWF & 12:00 - 13:00 & 101 & 1 \\
+     & LSK & 200 & MWF & 10:00 - 11:00 & 102 & 1 \\
+     & LSK & 460 & MWF & 10:00 - 11:00 & 103 & 1 \\
+    \hline
+    MATH 215 & ANNEX & 1100 & MWF & 8:00 - 9:00 & 201 & 2 \\
+    & BUCH A & 201 & MWF & 9:00 - 10:00 & 202 & 2 \\
+    \hline
+    CPSC 210 & WOOD & 101 & MWF & 12:00 - 13:00 & 101 & 1 \\
+     & HUGH & 310 & MWF & 14:00 - 15:00 & 102 & 1 \\
+     & SCARFE & 100 & MWF & 14:00 - 15:00 & 201 & 2 \\
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+%=================== Lists (Itemized & Numbered) ======================
+\subsection{Lists Of Pandas}
+
+Why use Word when you can use \LaTeX\ instead to \dots
+
+\begin{enumerate}
+\item Make panda tables
+\item Make panda pictures
+\end{enumerate}
+
+\dots or learn that a panda \dots
+\begin{itemize}
+\item Eats
+\item shoots,
+\item \& leaves
+\end{itemize}
+
+\dots or define words/concepts \dots
+\begin{description}
+\item[Panda]  Bear cat that eats shoots and leaves \cite{ref:pouty} (\textit{Ailuropoda melanoleuca}) \cite{ref:panda,ref:pouty}
+\item[Sleepy Panda] Equilibrium state of a panda \cite{convert, access}.   \cite{access}              %b/c of package, \cite{convert, access} = \cite{access, convert}                                   
+\end{description}
+
+
+% =================== Bibliography ======================
+
+%\cleardoublepage
+
+%Method 1
+%\begin{thebibliography}{10}  %{n} specifies #entires (max is 99)
+%
+%\bibitem{access} The University of British Columbia. (2015). Access and Diversity. \textit{Student Services}. Vancouver, Canada. $<$http://students.ubc.ca/about/access$>$ Last accessed on 23 November 2015.
+%%refer to this entry: \cite{access}
+%
+%\bibitem{convert} Carter, S. (2015). Mr. Data Converter. \textit{GitHub}. San Francisco, The United States of America. $<$https://goo.gl/f8tOl4$>$ Last accessed on 19 November 2015.
+%%refer to this entry: \cite{convert}
+%
+%\end{thebibliography}
+
+%Method 2: bibtext
+\bibliographystyle{IEEEtran}
+\bibliography{/Users/Stephanie/Documents/LaTex/references/pandaref}
+
 
 
 
